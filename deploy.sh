@@ -7,4 +7,4 @@ cd /home/ec2-user/deploy_nextjs_app
 git pull origin master
 nvm install v16
 npm install &&
-npm build
+npm run build
