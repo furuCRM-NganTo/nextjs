@@ -5,7 +5,7 @@ export NVM_DIR=$HOME/.nvm;
 
 cd /home/ec2-user/deploy_nextjs_app
 git pull origin master
-nvm install v18.16.0
+nvm install
 npm install &&
 npm run build &&
 pm2 restart deploy_nextjs_app
