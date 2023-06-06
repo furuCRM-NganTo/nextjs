@@ -5,6 +5,6 @@ export NVM_DIR=$HOME/.nvm;
 
 cd /home/ec2-user/deploy_nextjs_app
 git pull origin master
-nvm use v16
+nvm install v16
 yarn install &&
 yarn build &&
