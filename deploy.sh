@@ -8,4 +8,5 @@ git pull origin master
 nvm install v18.16.0
 npm install &&
 npm run build &&
+npm install pm2 -g &&
 pm2 restart nextjs
